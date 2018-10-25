@@ -1,14 +1,12 @@
 {
   "apps": [
     {
-      "name": "example-job-at-KST-0023",
-      "script": "pulsen-api",
+      "name": "example",
+      "script": "./example-scheduler.js",
       "watch": true,
       "env": {
-        "NODE_ENV": "production"
-      },
-      "exec_mode": "cluster",
-      "instances": 0
+        "NODE_ENV": "development"
+      }
     }
   ]
 }
